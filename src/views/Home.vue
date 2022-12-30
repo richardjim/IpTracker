@@ -9,13 +9,16 @@
                     <button class="bg-cyan-500 text-white px-4 py-2 rounded-r-md">Search</button>
                 </div>
             </div>
+            <IPInfo />
         </div>
     </div>
 </template> 
 
 <script>
-export default {
-    name: 'Home',
+import IPInfo from '../components/IPInfo.vue';
 
+export default {
+    name: "Home",
+    components: { IPInfo }
 }
 </script>  
